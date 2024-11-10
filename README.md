@@ -7,20 +7,25 @@
       * Lemanização
    Pode ser executado em diversas instâncias para montar um cluster de disponibilidade e/ou performance para fazer os processamentos de texto.
 
+
 #Qual o histórico?
 
    Eu sou um programador que adora Java e estamos estudando entre amigos para montar um sistema de busca semelhante (ou quase) ao que o google utiliza.
    Quando precisei de bibliotecas Java para fazer esses processamentos em português tivemos dificuldades, assim, ao menos por enquanto, para não prejudicar a data da apresentação do projeto, vamos fazer a chamadas rest a partir do java para esse serviço. 
    Assim, podemos realizar os processamento que desejamos.
 
+
 #A quem se destina?
 
   Qualquer pessoa que deseja fazer processamentos básicos de NLP em português. 
   Esse projeto tem 3 serviços, além de um "Alô mundo."
 
+
 #Como instalar?
+
   Ele foi feito em Python 3.9, mas você não precisa instalar toda a estrutura que ele usa. 
   Se você tiver docker com o plugin de docker compose, é muito simples.
+
   
 #Como testar?
 
@@ -45,7 +50,8 @@
          "text" : "Este é o texto que desejo processar."
        }
 
+
 #Coisas para fazer:
 
-   [ ] - Colocar um sistema de autenticação;
-   [ ] - Rodar em um servidor com http habilitado.
+   - [ ] - Colocar um sistema de autenticação;
+   - [ ] - Rodar em um servidor com http habilitado.
