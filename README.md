@@ -14,6 +14,7 @@
    Assim, podemos realizar os processamento que desejamos.
 
 #A quem se destina?
+
   Qualquer pessoa que deseja fazer processamentos básicos de NLP em português. 
   Esse projeto tem 3 serviços, além de um "Alô mundo."
 
@@ -45,5 +46,6 @@
        }
 
 #Coisas para fazer:
+
    [ ] - Colocar um sistema de autenticação;
    [ ] - Rodar em um servidor com http habilitado.
