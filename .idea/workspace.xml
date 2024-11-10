@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="Primeiro commit">
+    <list default="true" id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="Colocando mais detalhes e referências.">
+      <change afterPath="$PROJECT_DIR$/chama_servico_pt-BR.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parar_servico_pt-BR.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731199669130</updated>
-      <workItem from="1731199694851" duration="38618000" />
+      <workItem from="1731199694851" duration="39969000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <option name="closed" value="true" />
@@ -184,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731270098666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Colocando mais detalhes e referências.">
+      <option name="closed" value="true" />
+      <created>1731272358633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731272358633</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
+    <MESSAGE value="Colocando mais detalhes e referências." />
+    <option name="LAST_COMMIT_MESSAGE" value="Colocando mais detalhes e referências." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
