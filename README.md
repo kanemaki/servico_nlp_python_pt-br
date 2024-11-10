@@ -51,7 +51,28 @@
        }
 
 
+#Para rodar do Zero
+ - Instale o comando git na sua máquina (ou gitbash se tiver usando windows);
+ - Instale o docker, eu estou usando a versão 27.3.1;
+ - Comando para baixar : git clone https://github.com/spedison/servico_nlp_python_pt-br.git
+ - Vá na pasta do projeto : cd servico_nlp_python_pt-br
+ - Levante o projeto no docker : docker compose up -d  --build --scale app=2 
+ - faça o teste do "Alô Mundo" citado anteriormente
+ - faça os testes com as URLs dos comandos usando ferramentas como curl ou Postman
+
+#Referências
+ - https://spacy.io
+ - https://www.nltk.org
+ - https://fastapi.tiangolo.com/tutorial/
+ - https://docs.docker.com/reference/cli/docker/compose/
+ - https://curl.se/docs/manpage.html
+ - https://curl.se/docs/tutorial.html
+ - https://www.postman.com
+ - https://www.ibm.com/topics/stemming-lemmatization
+ - https://www.analyticsvidhya.com/blog/2022/06/stemming-vs-lemmatization-in-nlp-must-know-differences/
+
 #Coisas para fazer:
 
    - [ ] - Colocar um sistema de autenticação;
-   - [ ] - Rodar em um servidor com http habilitado.
+   - [ ] - Rodar em um servidor com http habilitado;
+   - [ ] - Avaliar a performance no java.
