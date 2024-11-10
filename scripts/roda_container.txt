@@ -1,0 +1,9 @@
+# Comandos para iniciar e terminar os containers com N instâncias da aplicação no AR.
+docker compose up -d  --build --scale app=30
+docker compose down
+
+# Ver as imagens geradas
+docker images
+
+# comando básico para acessar o "cluster" de containers
+curl http://localhost:80/

@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+nltk
+python-multipart
+Authlib
+spacy

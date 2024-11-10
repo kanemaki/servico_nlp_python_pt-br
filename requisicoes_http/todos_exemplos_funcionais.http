@@ -1,0 +1,32 @@
+###
+### GET Hello Server
+GET http://{{hostname}}:{{port}}/
+Accept: text/json
+Content-Type: application/json
+
+### POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto
+POST http://{{hostname}}:{{port}}/token/copia=False
+Accept: text/json
+Content-Type: application/json
+
+{
+  "text": "Agora os pães \t\tcustarão mais caro \npara os mais pobres. 10x mais caro! Cuidado com os \nbrioches\t pois eles cobram a conta. Sempre cobram ? \nSempre cobram! Porque nem sempre a cabeça podem parar no pescoço, algumas douradas em cesto. A idade média\n sem_\npre bate a porta. O ser humano é o que é. teste de ponto . agora vai. Fala de um :\n \"Agora vai\""
+}
+
+### POST request lemamização com e sem copia.
+POST http://{{hostname}}:{{port}}/lemmatize/copia=True
+Accept: text/json
+Content-Type: application/json
+
+{
+  "text": "Agora os pães \t\tcustarão mais caro \npara os mais pobres. 10x mais caro! Cuidado com os \nbrioches\t pois eles cobram a conta. Sempre cobram ? \nSempre cobram! Porque nem sempre a cabeça podem parar no pescoço, algumas douradas em cesto. A idade média\n sempre bate a porta. O ser humano é o que é. teste de ponto . agora vai. Fala de um :\n \"Agora vai\""
+}
+
+### POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas.
+POST http://{{hostname}}:{{port}}/stem/copia=True
+Accept: text/json
+Content-Type: application/json
+
+{
+  "text": "Agora os pães \t\tcustarão mais caro \npara os mais pobres. 10x mais caro! Cuidado com os \nbrioches\t pois eles cobram a conta. Sempre cobram ? \nSempre cobram! Porque nem sempre a cabeça pode parar no pescoço, algumas douradas em cesto que não são de ouro. A idade média\n sempre bate à porta. O ser humano é o que é. Teste de ponto . agora vai ! Fala de um :\n \"Agora vai\""
+}

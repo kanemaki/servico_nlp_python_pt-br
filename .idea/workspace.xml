@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/servico_tratamento_palavras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/baixa_arquivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/nlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/http-client.env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/lematizando.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/lematize.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/login.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/stemer.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/test_main.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisicoes_http/token.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/roda_container.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/olds/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/simple_test_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/simple_teste_lema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_very_simple_jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_very_simple_lematizador.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Dockerfile" />
+        <option value="HTTP Request" />
+        <option value="Python Script" />
+        <option value="HTTP Public Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/anaconda3/envs/fastapi-nlp/lib/python3.9/site-packages/anyio/_backends/_asyncio.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" environment="dev_docker" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2odVvTZLw2Kb2hnbiWlV6TPEEzp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.servico_tratamento_palavras.executor": "Run",
+    "HTTP Request.lematizando | GET request to example server.executor": "Run",
+    "HTTP Request.lematize | GET request to example server.executor": "Run",
+    "HTTP Request.login | GET request to example server.executor": "Run",
+    "HTTP Request.stemer | GET request to example server.executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | #1.executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | #2.executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | GET request to example server.executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto.executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | POST request lemamização com e sem copia..executor": "Run",
+    "HTTP Request.todos_exemplos_funcionais | POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas..executor": "Run",
+    "HTTP Request.token | GET request to example server.executor": "Run",
+    "Python.auth.executor": "Debug",
+    "Python.simple_test_json.executor": "Run",
+    "Python.simple_teste_lema.executor": "Run",
+    "Python.test_auth.executor": "Run",
+    "Python.test_very_simple_jwt.executor": "Run",
+    "Python.test_very_simple_lematizador.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/spedison/git/servico_tratamento_palavras",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rest.client.default.execution.environment": "dev_docker",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="servico_tratamento_palavras" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="servico_tratamento_palavras" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/requisicoes_http" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/log" />
+      <recent name="$PROJECT_DIR$/requisicoes_http" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/tests/olds" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="FastAPI.servico_tratamento_palavras">
+    <configuration name="todos_exemplos_funcionais | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="todos_exemplos_funcionais | POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" index="2" requestIdentifier="POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="todos_exemplos_funcionais | POST request lemamização com e sem copia." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" index="2" requestIdentifier="POST request lemamização com e sem copia." runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="todos_exemplos_funcionais | POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" index="4" requestIdentifier="POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas." runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="todos_exemplos_funcionais | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="servico_tratamento_palavras" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/app/main.py" />
+      <module name="servico_tratamento_palavras" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/fastapi-nlp/bin/python" />
+      <option name="SDK_NAME" value="fastapi-nlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="FastAPI.servico_tratamento_palavras" />
+      <item itemvalue="HTTP Request.todos_exemplos_funcionais | #1" />
+      <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto" />
+      <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST request lemamização com e sem copia." />
+      <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas." />
+      <item itemvalue="HTTP Request.todos_exemplos_funcionais | GET request to example server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST request lemamização com e sem copia." />
+        <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST request para fazer um Steam nas palavras usando somente os índices das palavras assim podemos estruturar as buscas." />
+        <item itemvalue="HTTP Request.todos_exemplos_funcionais | POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto" />
+        <item itemvalue="HTTP Request.todos_exemplos_funcionais | #1" />
+        <item itemvalue="HTTP Request.todos_exemplos_funcionais | GET request to example server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="" />
+      <created>1731199669130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731199669130</updated>
+      <workItem from="1731199694851" duration="36381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_auth.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/olds/auth.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/olds/auth.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/olds/auth.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/olds/auth.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/main.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/simple_teste_lema.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/simple_teste_lema.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$test_very_simple_jwt.coverage" NAME="test_very_simple_jwt Coverage Results" MODIFIED="1731206336756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$test_auth.coverage" NAME="test_auth Coverage Results" MODIFIED="1731207021868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$servico_tratamento_palavras.coverage" NAME="servico_tratamento_palavras Coverage Results" MODIFIED="1731258796362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$simple_teste_lema.coverage" NAME="simple_teste_lema Coverage Results" MODIFIED="1731252385437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$test_very_simple_lematizador.coverage" NAME="test_very_simple_lematizador Coverage Results" MODIFIED="1731256404781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$simple_test_json.coverage" NAME="simple_test_json Coverage Results" MODIFIED="1731245683805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/servico_tratamento_palavras$auth.coverage" NAME="auth Coverage Results" MODIFIED="1731247791631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+</project>

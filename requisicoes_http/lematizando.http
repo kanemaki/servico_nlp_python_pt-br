@@ -1,0 +1,9 @@
+### GET request to example server
+POST http://localhost:8000/lemmatize/copia=False
+Accept: text/json
+Content-Type: application/json
+
+{
+   "text": "Agora os pães \t\tcustarão mais caro \npara os mais pobres. 10x mais caro! Cuidado com os \nbrioches\t pois eles cobram a conta. Sempre cobram ? \nSempre cobram! Porque nem sempre a cabeça podem parar no pescoço, algumas douradas em cesto. A idade média\n sempre bate a porta. O ser humano é o que é. teste de ponto . agora vai. Fala de um :\n \"Agora vai\""
+}
+###

@@ -1,0 +1,9 @@
+### GET request to example server
+POST http://localhost:8000/lemmatize
+Accept: text/json
+Content-Type: application/json
+
+{
+   "text": "Agora os pães custarão mais caro para os mais pobres. Cuidado com os brioches pois eles cobram a conta."
+}
+###

@@ -1,0 +1,6 @@
+### GET request to example server
+POST http://localhost:8000/login?usr=admin&passwd=admin
+
+
+
+###
