@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="Scripts para facilitar a inicialização e término do container.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requisicoes_http/lematizando.http" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes_http/lematizando.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requisicoes_http/lematize.http" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes_http/lematize.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" beforeDir="false" afterPath="$PROJECT_DIR$/requisicoes_http/todos_exemplos_funcionais.http" afterDir="false" />
-    </list>
+    <list default="true" id="74a69bfc-d10e-4ba9-b59e-19ba18509688" name="Changes" comment="Scripts para facilitar a inicialização e término do container." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731199669130</updated>
       <workItem from="1731199694851" duration="40142000" />
-      <workItem from="1731284666901" duration="4515000" />
+      <workItem from="1731284666901" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <option name="closed" value="true" />
@@ -203,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731274298874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scripts para facilitar a inicialização e término do container.">
+      <option name="closed" value="true" />
+      <created>1731341867119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731341867119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +215,8 @@
     <MESSAGE value="Primeiro commit" />
     <MESSAGE value="Colocando mais detalhes e referências." />
     <MESSAGE value="Scripts para facilitar a inicialização e témino do container." />
-    <option name="LAST_COMMIT_MESSAGE" value="Scripts para facilitar a inicialização e témino do container." />
+    <MESSAGE value="Scripts para facilitar a inicialização e término do container." />
+    <option name="LAST_COMMIT_MESSAGE" value="Scripts para facilitar a inicialização e término do container." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
