@@ -1,5 +1,5 @@
 ### GET request to example server
-POST http://localhost:8000/lemmatize/copia=False
+POST http://localhost:8000/lematize/copia=False
 Accept: text/json
 Content-Type: application/json
 

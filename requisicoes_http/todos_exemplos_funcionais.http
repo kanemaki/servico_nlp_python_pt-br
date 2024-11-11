@@ -5,7 +5,7 @@ Accept: text/json
 Content-Type: application/json
 
 ### POST para realizar a quebra das linhas de forma mais ou menos coerente com o texto
-POST http://{{hostname}}:{{port}}/token/copia=False
+POST http://{{hostname}}:{{port}}/token/copia=True
 Accept: text/json
 Content-Type: application/json
 

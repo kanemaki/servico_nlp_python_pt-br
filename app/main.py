@@ -49,22 +49,22 @@ def token(sentence: Sentence, envia_copia : bool):
         return {"tokens": arr, "count": len(arr)}
 
 
-@app.post("/lemmatize/copia={envia_copia}")
+@app.post("/lematize/copia={envia_copia}")
 def lemmatize(sentence: Sentence, envia_copia : bool):
     original_text = sentence.text
     lemmatized_text = lemmatize_sentence(original_text)
     if envia_copia:
-        return {"original": original_text, "lemmatized": lemmatized_text}
+        return {"original": original_text, "lematizado": lemmatized_text}
     else:
-        return {"lemmatized": lemmatized_text}
+        return {"lematizado": lemmatized_text}
 
 
 # Serviço 3: Radicalização
-@app.post("/stem/copia={envia_copia}")
+@app.post("/radical/copia={envia_copia}")
 def stem(sentence: Sentence, envia_copia: bool):
     original_text = sentence.text
     stemmed_text = stem_sentence(original_text)
     if envia_copia:
-        return {"original": original_text, "stemmed": stemmed_text}
+        return {"original": original_text, "radical": stemmed_text}
     else:
-        return {"stemmed": stemmed_text}
+        return {"radical": stemmed_text}
