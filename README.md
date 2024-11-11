@@ -41,8 +41,8 @@
     
   * Os outros comandos usam post com um corpo padrão.
     - /token/copia=(True|False)
-    - /lemmatize/copia=(True|False)
-    - /stem/copia=(True|False)
+    - /lematize/copia=(True|False)
+    - /radical/copia=(True|False)
     
   * O parâmetro "copia" significa que você além de receber o resultado, você pode receber o que foi enviado, caso precise.
   * Corpo enviado no post:
