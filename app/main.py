@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import socket
 import datetime
@@ -13,6 +14,24 @@ verifica_e_baixa_arquivos("tokenizers", "punkt_tab.zip")
 verifica_e_baixa_arquivos("stemmers", "rslp.zip")
 
 app = FastAPI()
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+# Simulando usuários e tokens
+FAKE_USERS_DB = {
+    "user1": {"username": "user1", "password": "secret", "token": "token1"},
+    "user2": {"username": "user2", "password": "secret", "token": "token2"},
+}
+
+def verify_token(token: str = Depends(oauth2_scheme)):
+    for user in FAKE_USERS_DB.values():
+        if user["token"] == token:
+            return user
+    raise HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail="Token inválido ou não fornecido",
+        headers={"WWW-Authenticate": "Bearer"},
+    )
 
 class Sentence(BaseModel):
     text: str
@@ -50,25 +69,37 @@ def is_not_palavras(text):
 
     return (porcentagem_longa > 80 or porcentagem_curta > 80 or porcentagem_numeros > 80)
 
+@app.post("/login")
+def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    user = FAKE_USERS_DB.get(form_data.username)
+    if not user or user["password"] != form_data.password:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Usuário ou senha inválidos",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    return {"access_token": user["token"], "token_type": "bearer"}
+
 @app.get("/")
-def read_root():
+def read_root(user: dict = Depends(verify_token)):
     return {
         "message": "Hello, World!",
         "date_time": datetime.datetime.utcnow().__str__(),
-        "hostname": socket.gethostname()
+        "hostname": socket.gethostname(),
+        "user": user["username"]
     }
 
 @app.post("/token/copia={envia_copia}")
-def token(sentence: Sentence, envia_copia: bool):
+def token(sentence: Sentence, envia_copia: bool, user: dict = Depends(verify_token)):
     def tokenize_text(text):
         stok = PunktTokenizer("portuguese")
         return stok.tokenize(text)
     return process_text(sentence.text, tokenize_text, envia_copia, "tokens")
 
 @app.post("/lematize/copia={envia_copia}")
-def lemmatize(sentence: Sentence, envia_copia: bool):
+def lemmatize(sentence: Sentence, envia_copia: bool, user: dict = Depends(verify_token)):
     return process_text(sentence.text, lemmatize_sentence, envia_copia, "lematizado")
 
 @app.post("/radical/copia={envia_copia}")
-def stem(sentence: Sentence, envia_copia: bool):
+def stem(sentence: Sentence, envia_copia: bool, user: dict = Depends(verify_token)):
     return process_text(sentence.text, stem_sentence, envia_copia, "radical")
